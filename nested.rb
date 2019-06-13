@@ -56,7 +56,7 @@ def dennis_ritchies_language
         }
      }
 	string_val = programmer_hash.dig :dennis_ritchie, :languages
-	string_val.to_s
+	string_val.join
 end
 
 def adding_matz
